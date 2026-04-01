@@ -14,14 +14,18 @@ export default function Footer() {
             © {new Date().getFullYear()} / All Rights Reserved
           </p>
         </div>
-        <div className="flex gap-8 text-sm font-medium uppercase tracking-widest">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-8 text-sm font-medium uppercase tracking-widest">
           {Object.entries(personal.links).map(([key, url]) => (
             <a
               key={key}
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-neutral-400 transition-colors"
+              className={`hover:text-neutral-400 transition-colors ${
+                key.toLowerCase() === 'linkedin' 
+                  ? 'text-sm' 
+                  : 'text-[10px] md:text-sm'
+              }`}
             >
               {key}
             </a>
