@@ -1,0 +1,71 @@
+{
+  "personal": {
+    "name": "Ankit Gupta",
+    "role": "Software Engineer",
+    "email": "aryangupta2224@gmail.com",
+    "phone": "8840957619",
+    "location": "Bangalore, India",
+    "summary": "Software Engineer specializing in high-performance React and Next.js applications, focused on building scalable and low-latency user experiences.",
+    "links": {
+      "linkedin": "https://linkedin.com/in/ankitgupta",
+      "leetcode": "https://leetcode.com/u/aryangupta2224/",
+      "medium": "https://medium.com/@ankitgupta"
+    }
+  },
+  "experience": [
+    {
+      "company": "Kapture CX",
+      "role": "Software Development Engineer - II",
+      "period": "Dec 2024 – Present",
+      "location": "Bangalore, India",
+      "highlights": [
+        "Spearheaded a high-availability real-time chat application, using chunked streaming to cut UI re-renders 70% and eliminate lag.",
+        "Engineered the Employee Experience platform UI, integrating Keka, Jira, and Salesforce APIs; implemented Optimistic UI patterns and real-time tool-invocation feedback.",
+        "Scaled high-concurrency chat UI using message batching and normalized caching, maintained 60fps stability during peak traffic."
+      ]
+    },
+    {
+      "company": "Triventcad Solution",
+      "role": "Frontend Engineer",
+      "period": "Oct 2023 – Dec 2024",
+      "location": "Remote",
+      "highlights": [
+        "Built employee dashboard for real-time solar engineer tracking/inspections, enabling 20% faster field assignments.",
+        "Developed interactive solar calculator estimating power needs, streamlining sales for 500+ customers.",
+        "Integrated SharePoint knowledge base, boosting team info access by 40% via search improvements."
+      ]
+    },
+    {
+      "company": "Rightmove Technologies",
+      "role": "Frontend Developer",
+      "period": "Dec 2021 – Sep 2023",
+      "location": "Noida, U.P",
+      "highlights": [
+        "Migrated legacy React app to Next.js with SSR/SSG, slashing load times 50% and boosting SEO rankings 30%.",
+        "Refactored codebase to modular architecture, cutting duplication 40% and speeding feature dev 2x.",
+        "Optimized RESTful APIs with backend team, reducing latency 35% and sync errors to zero."
+      ]
+    }
+  ],
+  "skills": [
+    "HTML/CSS", "Tailwind CSS", "JavaScript", "DSA", "TypeScript", "React.js", "Next.js", "Redux", "Node.js", "MySQL", "Drizzle (ORM)", "Webpack/Vite Bundler", "CI/CD"
+  ],
+  "projects": [
+    {
+      "title": "Kapture EX",
+      "url": "https://github.com/ankitgupta/kapture-ex",
+      "description": "AI-powered employee dashboard integrating Keka, Jira, Salesforce, and Google APIs for internal support teams.",
+      "tech": ["React", "AI Agents", "Zapier", "Salesforce API"],
+      "highlights": [
+        "Engineered multi-model AI agents and custom workflows.",
+        "70% routine request auto-resolution via cross-platform orchestration."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor's Degree",
+    "institution": "SMT. KRISHNA DEVI MAHAVIDYALAYA",
+    "period": "May 2019 – Sep 2022",
+    "details": "Self-taught Software Engineer – Mastered full-stack development through 120+ hours of intensive online courses via Udemy, LeetCode (140+ problems solved)."
+  }
+}
