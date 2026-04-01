@@ -70,7 +70,7 @@ export default function App() {
   return (
     <div className="bg-white text-neutral-900 selection:bg-neutral-900 selection:text-white overflow-hidden h-screen w-full">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 h-20 flex items-center justify-between px-6 md:px-12 lg:px-24 z-[100] bg-white/80 backdrop-blur-sm border-b border-neutral-100">
+        <nav className="fixed top-0 left-0 right-0 h-16 md:h-20 flex items-center justify-between px-6 md:px-12 lg:px-24 z-[100] bg-white/80 backdrop-blur-sm border-b border-neutral-100">
         <button 
           onClick={() => scrollToSection(0)}
           className="text-xl font-bold tracking-tighter uppercase cursor-pointer"
